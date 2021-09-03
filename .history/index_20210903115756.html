@@ -3189,10 +3189,10 @@
 			});
 		</script>
 		<script>
-			var category = document.getElementById("testid");
+			var category = document.getElementsByClassName(".category__detail");
 			var mobileWidth = window.innerWidth;
 			if (mobileWidth <= 739){
-				category.id = "js-sticker";
+				category.setAttribute("id", "js-sticker");
 			}
 		</script>
 	</body>

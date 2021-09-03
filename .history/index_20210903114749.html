@@ -537,7 +537,7 @@
 									</div>
 								</div>
 								<!-- Category & Filter -->
-								<div class="category__detail" id="testid">
+								<div class="category__detail">
 									<!-- Product List -->
 									<div class="category__product-list">
 										<h3 class="category__heading">danh mục shop</h3>
@@ -3189,10 +3189,9 @@
 			});
 		</script>
 		<script>
-			var category = document.getElementById("testid");
 			var mobileWidth = window.innerWidth;
 			if (mobileWidth <= 739){
-				category.id = "js-sticker";
+				document.getElementsByClassName(".category__detail");
 			}
 		</script>
 	</body>
