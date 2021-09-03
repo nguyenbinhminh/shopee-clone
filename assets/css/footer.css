@@ -1,0 +1,242 @@
+/* BEGIN FOOTER */
+.app__footer {
+	background-color: #f5f5f5;
+	border-top: 0.4rem solid var(--second-color);
+}
+/* .footer__start {
+	padding-top: 6rem;
+} */
+.footer__middle {
+	background-color: #fbfbfb;
+	width: 100%;
+	padding-top: 6rem;
+}
+.footer__middle-container {
+	padding: 0.5rem;
+}
+.footer__heading {
+	font-size: 1.2rem;
+	color: rgba(0, 0, 0, 0.54);
+	font-weight: 700;
+	margin-bottom: 2rem;
+	text-transform: uppercase;
+}
+.footer__list {
+	list-style-type: none;
+}
+.footer__item {
+	margin-bottom: 1.2rem;
+	font-size: 1.2rem;
+	line-height: 1.2rem;
+}
+.footer__item-link {
+	color: rgba(0, 0, 0, 0.54);
+	font-size: 1.2rem;
+	line-height: 1.2rem;
+	display: flex;
+	align-items: center;
+}
+.footer__item-link:hover {
+	color: var(--second-color);
+	font-weight: 500;
+}
+/* FOOTER PAYMENT & SHIPPING */
+.footer__payment,
+.footer__shipping {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	margin-bottom: 1.7rem;
+}
+.footer__brands {
+	width: calc(100% / 3);
+	width: 5.5rem;
+	height: 2.9rem;
+	background-image: url(../img/footer/brands.png);
+	margin-bottom: 0.8rem;
+	margin-right: 0.8rem;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.footer__payment-visa {
+	background-position: 160px 169px;
+}
+.footer__payment-master {
+	background-position: 407px 116px;
+}
+.footer__payment-jcb {
+	background-position: 480px 120px;
+}
+.footer__payment-other {
+	background-position: 738px 169px;
+}
+.footer__payment-cod {
+	background-position: 333px 83px;
+}
+.footer__payment-installment {
+	background-position: 604px 80px;
+}
+.footer__payment-shopeepay {
+	background-size: 741% 931.578947368421%;
+	background-position: 71.91888% 6.32911%;
+	height: 1.2rem;
+}
+.footer__payment-shopee-express {
+	background-size: 667.5675675675676% 983.3333333333334%;
+	background-position: 65.71428571428571% 35.22012578616352%;
+	height: 1rem;
+}
+.footer__payment-ghtk {
+	background-size: 1347.2727272727273% 983.3333333333334%;
+	background-position: 19.97084548104956% 37.735849056603776%;
+	height: 1.8rem;
+}
+.footer__payment-ghn {
+	background-size: 1347.2727272727273% 610.3448275862069%;
+	background-position: 9.037900874635568% 40.54054054054054%;
+}
+.footer__payment-viettel {
+	background-size: 578.90625% 138.28125%;
+	background-position: 88.90701468189233% 100%;
+	height: 4rem;
+}
+.footer__payment-vnpt {
+	background-size: 1347.2727272727273% 655.5555555555555%;
+	background-position: 1.4577259475218658% 72.66666666666667%;
+	height: 2.7rem;
+}
+.footer__payment-jt {
+	background-size: 1347.2727272727273% 1106.25%;
+	background-position: 95.6268221574344% 6.211180124223603%;
+	height: 1.6rem;
+}
+.footer__payment-grab {
+	background-size: 552.9850746268656% 610.3448275862069%;
+	background-position: 29.9835255354201% 6.756756756756757%;
+	height: 1.5rem;
+}
+.footer__payment-ninja {
+	background-size: 1235% 680.7692307692307%;
+	background-position: 55.947136563876654% 6.622516556291391%;
+	height: 2rem;
+}
+.footer__payment-best {
+	background-size: 1029.1666666666667% 590%;
+	background-position: 13.452914798206278% 6.802721088435374%;
+	height: 2.2rem;
+}
+
+/* FOOTER SOCIALS */
+.footer__socials-icon {
+	font-size: 1.6rem;
+	margin-right: 0.5rem;
+}
+.footer__item-link .footer__socials-icon {
+	color: rgba(0, 0, 0, 0.54);
+}
+
+/* FOOTER APP STORE */
+.footer__app-store {
+	display: flex;
+}
+.footer__qrcode,
+.footer__stores {
+	width: calc(50% - 0.75rem);
+}
+.footer__qrcode {
+	margin-right: 0.75rem;
+	border: 1px solid rgba(0, 0, 0, 0.09);
+}
+.footer__stores {
+	margin-left: 0.75rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.footer__stores-img {
+	width: 8rem;
+}
+
+.footer__middle-copyright {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	color: var(--text-color-gray);
+	font-size: 1.4rem;
+	padding: 4rem 0;
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+.footer__middle-copyright--right {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+.footer__middle-copyright--link {
+	display: inline-block;
+	color: var(--text-color-gray);
+	padding: 0 0.5rem;
+	line-height: 1.8rem;
+}
+.footer__middle-copyright--link + .footer__middle-copyright--link {
+	border-left: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.footer__end {
+	padding-top: 4.2rem;
+	padding-bottom: 3.7rem;
+}
+.footer__policy-list {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.footer__policy-item {
+	padding: 0 2.5rem;
+}
+.footer__policy-item + .footer__policy-item {
+	border-left: 1px solid rgba(0, 0, 0, 0.09);
+}
+.footer__policy-link {
+	font-size: 1.2rem;
+	text-transform: uppercase;
+	color: var(--text-color-gray);
+}
+
+.footer__register {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 4rem;
+}
+.footer__register-item {
+	background-image: url(../img/footer/brands.png);
+	margin: 0 2rem;
+}
+.footer__register-bct {
+	width: 12rem;
+	height: 4.5rem;
+	background-size: 617.5% 393.3333333333333%;
+	background-position: 34.13848631239936% 84.0909090909091%;
+}
+.footer__register-regulation {
+	width: 4.8rem;
+	height: 4.8rem;
+	background-size: 1543.75% 368.75%;
+	background-position: 100% 35.65891472868217%;
+}
+
+.footer__company-name,
+.footer__info-item {
+	display: block;
+	text-align: center;
+	font-size: 1.2rem;
+	color: var(--text-color-gray);
+	margin-top: 1rem;
+}
+.footer__company-name {
+	margin-bottom: 2.5rem;
+}
+/* END FOOTER */
